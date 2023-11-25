@@ -1,0 +1,16 @@
+name: testPlugin
+version: '${project.version}'
+main: diag.playmine.testplugin.TestPlugin
+api-version: '1.20'
+
+
+permissions:
+  foxinbox.economy.admin:
+    children:
+      - foxinbox.economy.reload
+    default: op
+
+commands:
+  reload:
+    description: 'Перезагружает конфигурацию плагина.'
+    permission: 'foxinbox.economy.reload'
