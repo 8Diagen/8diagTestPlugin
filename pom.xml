@@ -108,7 +108,7 @@
         </repository>
         <repository>
             <id>github.com</id>
-            <url>https://github.com/8Diagen/testPlugin.git</url>
+            <url>https://github.com/8Diagen/8diagTestPlugin.git</url>
         </repository>
     </repositories>
 
